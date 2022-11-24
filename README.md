@@ -18,3 +18,6 @@
 # Run
 
 `npm start`
+
+
+<!-- * all icons provided by <a href="https://www.flaticon.com/free-icons/spiral" title="spiral icons">Spiral icons created by Freepik - Flaticon</a> * -->

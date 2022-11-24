@@ -1,0 +1,90 @@
+:root {
+    --main-color1:#0ce487;
+    --main-color2: #1F5940;
+    --main-color3: #84a9a0;
+}
+
+/* Header */
+.header-container {
+    border-bottom: 1px solid var(--main-color2);
+}
+
+.inner-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.inner-header-container * {
+    margin: 0;
+}
+
+.inner-header-container img, .inner-header-container #header-text {
+    margin: 5px 0 10px 15px;
+}
+
+#header-title {
+    color: var(--main-color2);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#header-title:hover {
+    color: var(--main-color1);
+}
+
+#header-subtitle {
+    color: var(--main-color3);
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+
+/* Buttons */
+.btn {
+    background-color: var(--main-color2);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: var(--main-color1);
+    color: var(--main-color2);
+    border: 1px solid var(--main-color2)
+}
+
+/* Login/Sign up page */
+.form-container {
+    background-color: var(--main-color3);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Nav bar */
+.menu-bar {
+    background-color: #1988f7;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+  }
+  
+  .item.title {
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
